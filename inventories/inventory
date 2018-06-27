@@ -1,0 +1,8 @@
+ans-test-gs01  172.31.41.13  
+ans-test-gs02  172.31.41.193 
+
+[gs-vms]
+ans-test-gs[01:02]
+
+
+
