@@ -6,5 +6,5 @@
     - vars.yml
 
   roles:
-    - geerlingguy.firewall
+    - mrlesmithjr.firewalld
     - geerlingguy.glusterfs
