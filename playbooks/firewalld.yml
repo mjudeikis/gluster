@@ -1,0 +1,17 @@
+---
+- hosts: firewalld-servers
+  roles:
+    - role: firewalld
+      firewalld_zone: public
+      firewalld_ports_open:
+        - proto: tcp
+          port: 111
+        - proto: tcp
+          port: 24007-24011
+        - proto: tcp
+          port: 49152-49153
+        - proto: udp
+          port: 111
+   
+      firewalld_become: true
+
