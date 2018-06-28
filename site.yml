@@ -2,9 +2,6 @@
 - hosts: gs-vms
   sudo: yes
   
-  vars_files:
-    - vars.yml
-
   roles:
-    - mrlesmithjr.firewalld
+    - oasis-roles.firewalld
     - geerlingguy.glusterfs
